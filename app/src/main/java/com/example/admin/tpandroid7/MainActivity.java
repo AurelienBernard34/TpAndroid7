@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
                 index++;
 
+                //On vérifie que l'index ne dépasse pas la longueur du tableau des questions
                 if (index<questions.length) {
 
                     questionTest.setText(questions[index].getQuestion());
@@ -91,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
                 index++;
 
+                //On vérifie que l'index ne dépasse pas la longueur du tableau des questions
                 if (index<questions.length) {
 
                     questionTest.setText(questions[index].getQuestion());
