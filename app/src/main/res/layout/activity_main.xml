@@ -9,26 +9,26 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:onClick="bouton1"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp"
-        android:text="Vert"
-        android:onClick="bouton1"/>
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/button1"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:text="Bleu"
-        android:onClick="button2"/>
+        android:onClick="bouton1"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_toEndOf="@+id/button1" />
+
 
     <TextView
         android:id="@+id/textView2"
@@ -40,7 +40,6 @@
         android:layout_marginEnd="11dp"
         android:layout_marginRight="11dp"
         android:layout_marginTop="140dp"
-        android:text="Quel est la plus belle couleur ?"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textStyle="bold" />
